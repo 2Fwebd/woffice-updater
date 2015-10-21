@@ -1,0 +1,27 @@
+html,body{ margin:0; padding:0; height:100%; width:100%;}
+body{-webkit-font-smoothing: antialiased;}
+/* LINK SWEET ANIMATION */
+a, a:hover, a:focus,button:hover,input[type="submit"]{
+	text-decoration: none;
+    -webkit-transition-duration: 0.4s;
+       -moz-transition-duration: 0.4s;
+            transition-duration: 0.4s;
+}
+/* CHROME ISSUE ON FORM */
+button:focus,input:focus{outline:0;}
+img{max-width: 100%;}
+
+#wrapper{
+	margin: auto;
+    max-width: 500px;
+    width: 80%;
+}
+
+#header{
+	margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#header img{width: 200px;}
+.center{text-align: center;}
+#tutorial{margin-top: 40px;}
